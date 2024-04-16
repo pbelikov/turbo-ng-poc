@@ -37,7 +37,6 @@
     "typescript": "~5.0.2",
     "turbo": "latest"
   },
-  "packageManager": "npm@10.2.0",
   "workspaces": [
     "projects/*"
   ]
