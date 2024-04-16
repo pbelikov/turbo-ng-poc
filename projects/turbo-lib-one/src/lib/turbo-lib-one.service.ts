@@ -5,5 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class TurboLibOneService {
 
-  constructor() { }
+  constructor() {
+    console.log('instance TurboLibOneService: created');
+  }
 }
