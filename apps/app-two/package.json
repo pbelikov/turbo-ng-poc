@@ -1,0 +1,16 @@
+{
+  "name": "turbo-app-two",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "scripts": {
+    "build": "ng build turbo-app-two",
+    "test": "ng test turbo-app-two"
+  },
+  "sideEffects": false
+}

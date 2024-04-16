@@ -39,6 +39,7 @@
     "turbo": "latest"
   },
   "workspaces": [
+    "apps/*",
     "projects/*"
   ]
 }
