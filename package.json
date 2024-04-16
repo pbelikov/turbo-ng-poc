@@ -40,6 +40,6 @@
   },
   "workspaces": [
     "apps/*",
-    "projects/*"
+    "libraries/*"
   ]
 }
