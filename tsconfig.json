@@ -19,6 +19,14 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
+    "paths": {
+      "turbo-lib-one": [
+        "dist/turbo-lib-one"
+      ],
+      "turbo-lib-two": [
+        "dist/turbo-lib-two"
+      ]
+    },
     "lib": [
       "ES2022",
       "dom"

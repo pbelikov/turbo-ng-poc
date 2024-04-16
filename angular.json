@@ -99,6 +99,72 @@
           }
         }
       }
+    },
+    "turbo-lib-one": {
+      "projectType": "library",
+      "root": "projects/turbo-lib-one",
+      "sourceRoot": "projects/turbo-lib-one/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/turbo-lib-one/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/turbo-lib-one/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/turbo-lib-one/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/turbo-lib-one/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "turbo-lib-two": {
+      "projectType": "library",
+      "root": "projects/turbo-lib-two",
+      "sourceRoot": "projects/turbo-lib-two/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/turbo-lib-two/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/turbo-lib-two/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/turbo-lib-two/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/turbo-lib-two/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
     }
   }
 }
