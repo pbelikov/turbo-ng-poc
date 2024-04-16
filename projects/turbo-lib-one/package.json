@@ -8,5 +8,9 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
+  "scripts": {
+    "build": "ng build turbo-lib-one",
+    "test": "ng test turbo-lib-one"
+  },
   "sideEffects": false
 }
