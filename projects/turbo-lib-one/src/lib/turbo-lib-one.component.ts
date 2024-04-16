@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'lib-turbo-lib-one',
   template: `
     <p>
-      turbo-lib-one works!
+      turbo-lib-one works! 12
     </p>
   `,
   styles: [
