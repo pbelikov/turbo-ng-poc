@@ -34,6 +34,11 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "ng-packagr": "^16.0.0",
-    "typescript": "~5.0.2"
-  }
+    "typescript": "~5.0.2",
+    "turbo": "latest"
+  },
+  "packageManager": "npm@10.2.0",
+  "workspaces": [
+    "projects/*"
+  ]
 }
